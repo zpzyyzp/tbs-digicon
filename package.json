@@ -17,6 +17,8 @@
     "flag-icon-css": "^3.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "lodash": "^4.17.14",
+    "lodash.template": "^4.5.0"
   }
 }
