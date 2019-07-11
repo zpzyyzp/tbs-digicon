@@ -105,8 +105,11 @@
             </v-alert>
           </v-flex>
           <v-flex xs12>
-            <v-layout justify-center row>
+            <v-layout row wrap>
               <v-flex
+                xs12
+                sm7
+                md6
                 lg5
                 xl4
               >
@@ -118,21 +121,25 @@
                     <v-card
                       flat
                       class="text-xs-center deadline"
-                      color="#FDFFDE"
                     >
-                      SUBMISSION<br>
-                      DEADLINE<br>
-                      <span v-if="deadline">
-                      {{ deadline }}
-                    </span>
-                      <span v-else>
-                      TBD
-                    </span>
+                      <div class="deadline-text">
+                        SUBMISSION<br>
+                        DEADLINE<br>
+                        <span v-if="deadline">
+                        {{ deadline }}
+                        </span>
+                        <span v-else>
+                        TBD
+                       </span>
+                      </div>
                     </v-card>
                   </v-img>
                 </v-card>
               </v-flex>
               <v-flex
+                xs12
+                sm5
+                md6
                 lg7
                 xl8
               >
@@ -276,13 +283,18 @@ export default {
 
 <style scoped>
   .deadline {
-    color: rgb(240,126,41) !important;
+    color: #F07E29 !important;
+    background-color: #FDFFDE;
     font-weight: bold;
     font-size: 24px;
-    width: 38.2%;
-    height: 12.8%;
+    width: 39.52%;
+    min-height: 13.2%;
     position: absolute;
-    right: 2%;
-    top: 26.45%
+    right: 1.28%;
+    top: 26.3%;
+    border: 2px #F07E29 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 </style>
