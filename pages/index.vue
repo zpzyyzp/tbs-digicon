@@ -284,7 +284,7 @@ export default {
 <style scoped>
   .deadline {
     color: #F07E29 !important;
-    background-color: #FDFFDE;
+    background-color: #FDFFDE !important;
     font-weight: bold;
     font-size: 24px;
     width: 39.52%;
@@ -292,7 +292,7 @@ export default {
     position: absolute;
     right: 1.28%;
     top: 26.3%;
-    border: 2px #F07E29 solid;
+    border: 2px #F07E29 solid !important;
     display: flex;
     justify-content: center;
     align-items: center;
