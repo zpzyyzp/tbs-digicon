@@ -1,7 +1,11 @@
 <template>
-  <v-app light>
+  <v-app light v-cloak>
     <v-content>
-      <v-container pt-0>
+      <v-container
+        grid-list-md
+        fluid
+        pa-0
+      >
         <nuxt />
       </v-container>
     </v-content>
