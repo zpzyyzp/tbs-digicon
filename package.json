@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "lodash.template": "^4.5.0"
   }
 }
